@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		.qiQiu{
+		position:absolute;
+		width:200px;
+		height:200px;
+		background-color:#ffe5e5;
+		border-radius: 200px 200px 100px 200px;
+		transform:rotate(45deg);
+		box-shadow:-10px -10px 80px 20px #ff9999 inset;
+	}
+	.qiQiu::after{
+		position:absolute;
+		bottom:4px;
+		right:4px;
+		content:"";/*表示伪元素中要插入的内容*/
+		border:10px solid transparent;
+		border-right-color:red;
+		transform:rotate(45deg);
+		border-radius:16px;
+		
+		
+	}
+	#scortDaQiQiu{
+		font-family:Arial;
+		font-size:20px;
+		color:blue;
+	}
+		</style>
+	</head>
+	<div class="qiQiu  "></div>
+	<body>
+	</body>
+</html>
